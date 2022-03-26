@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^lien-he$ /lienhe.php [L]
+RewriteRule ^tuyen-dung$ /tuyendung.php [L]
+RewriteRule ^dich-vu$ /dichvu.php [L]
+RewriteRule ^nghiep-vu$ /nghiepvu.php [L]
+
+
+ErrorDocument 404 /nguyennam/404.php
